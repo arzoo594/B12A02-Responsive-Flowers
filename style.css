@@ -21,3 +21,9 @@ nav ul a{
 .card-price{
     font-weight: 400;
 }
+
+@media screen and (max-width:576px) {
+    nav ul li{
+     display: none;
+    }
+}
