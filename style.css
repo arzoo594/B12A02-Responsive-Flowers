@@ -26,6 +26,7 @@ nav ul a{
     align-items: center;
     justify-content: space-between;
     margin-top:80px ;
+    overflow: hidden;
 
   
     
@@ -46,5 +47,15 @@ nav ul a{
 @media screen and (max-width:576px) {
     nav ul li{
      display: none;
+    }
+    .banner-container{
+     flex-direction: column;
+    }
+    .banner-left{
+        order: 2;
+    }
+    .banner-right{
+        order: 1;
+        display: inline;
     }
 }
