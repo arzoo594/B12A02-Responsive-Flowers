@@ -1,11 +1,12 @@
 .screen-max-width{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 nav ul{
     display: flex;
@@ -44,6 +45,24 @@ nav ul a{
     
 }
 
+.card-item-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.card-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.card-item-container img{
+   width: 100%;
+}
+
+
+
+
 @media screen and (max-width:576px) {
     nav ul li{
      display: none;
@@ -56,6 +75,11 @@ nav ul a{
     }
     .banner-right{
         order: 1;
-        display: inline;
+       
     }
+     .card-item-container{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    
 }
