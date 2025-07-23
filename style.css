@@ -21,6 +21,27 @@ nav ul a{
 .card-price{
     font-weight: 400;
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:80px ;
+
+  
+    
+}
+.banner-left h1{
+   
+   font-weight: 700;
+   font-size: 4rem;
+}
+.banner-headline{
+    color: rgb(233, 90, 8);
+}
+.banner-left p{
+    color: rgba(0, 0, 0, 0.5);
+    
+}
 
 @media screen and (max-width:576px) {
     nav ul li{
